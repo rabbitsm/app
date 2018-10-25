@@ -1,0 +1,2 @@
+# app
+RabbitSM Desktop Installer
