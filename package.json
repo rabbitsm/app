@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "name": "rsm-app",
+  "description": "RabbitSM Desktop Installer",
+  "version": "0.0.1",
+  "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
+  "main": "app/background.js",
+  "build": {
+    "appId": "com.rsm.app",
+    "productName": "RabbitSM",
+    "copyright": "Copyright © ${year} ${author}",
+    "directories": {
+      "output": "dist",
+      "buildResources": "resources"
+    },
+    "publish": null
+  },
+  "scripts": {
+    "dev": "node build/nextron.js",
+    "build": "node build/nextron.js build",
+    "build:all": "node build/nextron.js build --all",
+    "build:win32": "node build/nextron.js build --win --ia32",
+    "build:win64": "node build/nextron.js build --win --x64",
+    "build:mac": "node build/nextron.js build --mac --x64",
+    "build:linux": "node build/nextron.js build --linux"
+  },
+  "dependencies": {
+    "fs-jetpack": "^2.2.0",
+    "jss": "^9.8.7",
+    "next": "7.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-jss": "^8.6.1"
+  },
+  "devDependencies": {
+    "arg": "^2.0.0",
+    "chalk": "^2.4.1",
+    "electron": "3.0.5",
+    "electron-builder": "20.28.4",
+    "fast-glob": "^2.2.3",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "fs-extra": "^7.0.0",
+    "node-npx": "^1.3.1",
+    "ora": "^3.0.0",
+    "webpack": "^4.20.2",
+    "webpack-merge": "^4.1.4"
+  }
+}
