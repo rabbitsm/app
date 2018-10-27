@@ -26,10 +26,6 @@ app.on('ready', () => {
   }) : 'http://localhost:8888/home'
 
   mainWindow.loadURL(homeUrl)
-
-  if (!isProd) {
-    mainWindow.webContents.openDevTools()
-  }
 })
 
 app.on('window-all-closed', () => {

@@ -5366,7 +5366,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
 
 "rsm-ui@github:rabbitsm/rsm-ui#0.x":
   version "1.0.0"
-  resolved "https://codeload.github.com/rabbitsm/rsm-ui/tar.gz/d70b61f8cd3ce2a1db4bb59b98a64ca03fcb880a"
+  resolved "https://codeload.github.com/rabbitsm/rsm-ui/tar.gz/ac037b3b6e8d22d108c3a5f85a79d848ac48e93e"
   dependencies:
     prop-types "^15.6.2"
     react "^16.6.0"

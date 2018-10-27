@@ -17,6 +17,7 @@
   },
   "scripts": {
     "dev": "node build/nextron.js",
+    "update-rsm-ui": "yarn remove rsm-ui && yarn add github:rabbitsm/rsm-ui#0.x",
     "build": "node build/nextron.js build",
     "build:all": "node build/nextron.js build --all",
     "build:win32": "node build/nextron.js build --win --ia32",
@@ -31,7 +32,8 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-jss": "^8.6.1",
-    "rsm-ui": "github:rabbitsm/rsm-ui#0.x"
+    "rsm-ui": "github:rabbitsm/rsm-ui#0.x",
+    "styled-components": "^4.0.2"
   },
   "devDependencies": {
     "arg": "^2.0.0",
