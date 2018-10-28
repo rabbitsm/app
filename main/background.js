@@ -20,10 +20,10 @@ app.on('ready', () => {
   })
 
   const homeUrl = isProd ? format({
-    pathname: join(__dirname, 'home/index.html'),
+    pathname: join(__dirname, 'signup/index.html'),
     protocol: 'file:',
     slashes: true
-  }) : 'http://localhost:8888/home'
+  }) : 'http://localhost:8888/signup'
 
   mainWindow.loadURL(homeUrl)
 })
